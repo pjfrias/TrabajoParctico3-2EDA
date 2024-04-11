@@ -10,6 +10,8 @@ public class TrabajoParctico32EDA {
 
     public static void main(String[] args) {
      
+        
+        
     }
 
 }
