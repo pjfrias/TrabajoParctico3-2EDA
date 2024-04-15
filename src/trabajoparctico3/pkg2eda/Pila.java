@@ -76,7 +76,13 @@ public class Pila {
     }
 
     public int verElemento() {
-        return arreglo[tope];
+        if (!pilaVacia()) {
+            return arreglo[tope];
+        }
+        else{
+            return arreglo[tope];
+        }
+        
     }
 
     public void verPila() {

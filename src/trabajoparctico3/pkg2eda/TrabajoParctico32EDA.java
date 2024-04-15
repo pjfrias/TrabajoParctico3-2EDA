@@ -30,33 +30,27 @@ public class TrabajoParctico32EDA {
         pila3.verPila();
         
         while(!pila2.pilaLlena()){
-            pila2.push(pila3.verElemento());
-            pila3.pop();
+            pila2.push(pila3.pop());
         }
         
         while(!pila1.pilaLlena()){
-            pila1.push(pila2.verElemento());
-            pila2.pop();
+            pila1.push(pila2.pop());
         }
         
         while(!pila2.pilaLlena()){
-            pila2.push(pila3.verElemento());
-            pila3.pop();
+            pila2.push(pila3.pop());
         }
         
         while(!pila1.pilaVacia()){
-            pila3.push(pila1.verElemento());
-            pila1.pop();
+            pila3.push(pila1.pop());
         }
         
         while(!pila1.pilaLlena()){
-            pila1.push(pila2.verElemento());
-            pila2.pop();
+            pila1.push(pila2.pop());
         }
         
         while(!pila1.pilaVacia()){
-            pila3.push(pila1.verElemento());
-            pila1.pop();
+            pila3.push(pila1.pop());
         }
         
         System.out.println("Pila Ordenada");
